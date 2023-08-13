@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@mints/eslint-config'],
+  extends: ['@mints/eslint-config', 'plugin:storybook/recommended'],
 };

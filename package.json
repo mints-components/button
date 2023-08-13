@@ -15,10 +15,10 @@
     }
   },
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --fix",
-    "preview": "vite preview"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -26,6 +26,14 @@
   },
   "devDependencies": {
     "@mints/eslint-config": "^1.0.0-beta.1",
+    "@storybook/addon-essentials": "^7.2.1",
+    "@storybook/addon-interactions": "^7.2.1",
+    "@storybook/addon-links": "^7.2.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.2.1",
+    "@storybook/react": "^7.2.1",
+    "@storybook/react-vite": "^7.2.1",
+    "@storybook/testing-library": "^0.2.0",
     "@types/node": "^20.4.6",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -33,6 +41,8 @@
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "storybook": "^7.2.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
