@@ -6,12 +6,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-component.umd.cjs",
-  "module": "./dist/my-component.js",
+  "main": "./dist/button.umd.cjs",
+  "module": "./dist/button.js",
   "exports": {
     ".": {
-      "import": "./distmy-component.js",
-      "require": "./dist/my-component.umd.cjs"
+      "import": "./dist/button.js",
+      "require": "./dist/button.umd.cjs"
     }
   },
   "scripts": {
