@@ -1,3 +1,3 @@
-# Template Component
+# Button
 
-> Template for Mints Component
+> Button for Mints Component
